@@ -1,0 +1,45 @@
+.design{
+    border: 0px solid red;
+    border-bottom :1px solid rgb(22, 21, 21);
+    color:green ;
+    width :100px;
+    height:45px;
+    margin:5px;
+    background-color: rgb(206, 216, 216);
+    font-size: 1.0rem;
+}
+.design:hover{
+    transition: all 0.3s ease-in;
+    border-bottom:3px solid black;
+}
+.div{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width:150px;
+    height:300px;
+  
+    margin:auto;
+    border-radius:4px;
+    box-shadow: 0px 7px 3px 2px rgb(93, 92, 92);
+}
+.div:hover{
+    transition: all 0.4s ease-in;
+    top :30px;
+    border:0px solid red;
+    border-bottom: 10px solid rgb(36, 35, 35);
+    box-shadow: 0px 7px 15px 5px rgb(93, 92, 92);
+}
+.component{
+    border:1px solid red;
+    width:80%;
+    height:600px;
+    margin:auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
