@@ -24,7 +24,7 @@ function Hello(){
     }
     return(<>
     <div className="div">
-    <h2>count:{count}</h2>
+    <h2 className="text-3xl font-bold underline bg-blue bg-red-500" >count:{count}</h2>
 <button className="design" onClick={added}>ADD{count}</button>
 <button  className ="design" style = {styled}onClick={remove}>Remove{count}</button>
    
