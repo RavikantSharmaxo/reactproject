@@ -8,13 +8,11 @@ const adding =()=>{
     setNum(arr =>[...num,num.push(numm+1)])
     setNumm(numm+1)
 }
-const remove=()=>{
-    setNum(arr=>[...arr,num.pop(numm)])
-}
+
     return (
         <>
         <button className="design" onClick={adding}>Add Component</button>
-        <button className="design" onClick={remove}>Remove Component</button>
+        <button className="design" >Remove Component</button>
         <div className="component">
         {num.map((num)=>{return <div><Hello/></div> })}
         </div>
